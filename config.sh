@@ -131,7 +131,7 @@ case "$1" in
 	repo_sync $1
 	;;
 "sugar-cubietruck")
-	echo PRODUCT_NAME=cubietruck >> .tmp-config &&
+	echo PRODUCT_NAME=$1 >> .tmp-config &&
 	repo_sync $1
 	;;
 
